@@ -4,36 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>God is Good</title>
-</head>
+    <style>
+        * {padding:0px;
+       
+            margin:0px;
+        box-sizing: border-box;
+        }
+        
+        .main___container{
+           
+            width:100%;
+        height: 100vh;
+        background-color: rgb(51, 51, 50); 
+        box-sizing: content-box;
+    
+        
+
+        }
+        .header___container{
+            height:12vh;
+            width:100%;
+            background-color: orange;
+         
+
+            
+             
+        }
+        .header___inner___container{
+            padding:0px 36px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top:10px
+        }
+
+        .header__logo{
+            width:100px;
+            height:50px;
+
+        }
+        .header__button{
+            padding:4px 4px;
+            cursor:pointer;
+            border-radius:12px;
+        }
+        
+        
+ 
+       /* #main-container {
+        width:100%;
+        height: 100vh;
+        background-color: orange;} */
+    </style>
+   
+        <!-- /*paddingtop:0px;paddingbottom:0px;paddingleft:0px;paddingright:0px;*/
+        /*padding:0px 4px*/
+        /*The top & bottom goes first before the left and right*/ -->
+
+
 <body>
-    <!-- <h1>God is awesome</h1>
-    <h2>God is awesome</h2>
-    <h3>God is awesome</h3>
-    <h4>God is awesome</h4>
-    <h5>God is awesome</h5>
-    <h6>God is awesome</h6> -->
+ 
 <!-- 
     <p>If you want to put a comment in a code for window users you use control+ /(slash)
 
     </p> -->
-    <div>
+    <div class="main___container" >
         <!--Header-->
         <!--Logo-->
-        <div>
-            <h3>HTML inc.</h3></div>
+        <div class="header___container">
+        <div class="header___inner___container">   
+             <img src="./assets/pgg.jpg" class= header__logo>
+                  
+            <!--Nav-->
+                <div>
+                <button class="header__button">About Us</button>
+                <button class="header__button">Home</button>
+                <button class="header__button">Contact Us</button>
+                </div>
+            </div> 
+            </div>    
+                
+              
+                
+           
+                
         <!--Nav-->
-        <div>
-            <button>About Us</button>
-            <button>Home</button>
-        </div>
+        
+            
         <!--image-->
-        <div>
+        <!-- <div>
             <img src="./assets/Beulah.jpg">
             <button>Click </button>
-        </div>
+        </div> -->
         <!--Footer-->
         <!--Add text: Copywright 2024 "Your Name"-->
-        <div></div>
+        <div>
+            
+        Copywright Faith 2024
+    
+        </div>
     </div>
+</head>
 </body>
 </html>
